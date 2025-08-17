@@ -1,0 +1,118 @@
+{
+    "LINKS": 
+    {
+        "HOME": "Accueil",
+        "PRODDUCTS":"Produits",
+        "ME": "À propos de nous",
+        "CONTACT": "Contact"
+      },
+      "MAIN":{
+        "CARD": {
+            "TITLE": "🌿 Le Trésor du Miel de Thym",
+            "SUBTITLE": "Récolté à la main dans les fleurs de thym sauvage d’Ida Outanan, ce miel est reconnu pour sa saveur intense, sa pureté naturelle et ses bienfaits pour la santé — un véritable goût du cœur du Maroc.",
+            "BUTTONTEXT": "Acheter Pur & Naturel"
+            },
+            "HONEYCHARS": {
+                "CHAR1": "Riche en antioxydants, qui aident à protéger le corps contre l'inflammation et le stress oxydatif.",
+                "CHAR2": "A une saveur forte et aromatique provenant des fleurs de thym, ce qui le rend unique par rapport aux autres types de miel.",
+                "CHAR3": "Connu pour ses propriétés médicinales, notamment pour traiter les maux de gorge et renforcer le système immunitaire.",
+                "TITLE1":"Miel de Thym ",
+                "TITLE2":"Le Cadeau Guérisseur de la Nature"
+        }
+
+      },
+      "COMMON":{
+        "SEARCHPLACEHOLDER":"Trouvez votre saveur de miel préférée",
+        "ORDER_HISTORY":"Historique des commandes",
+        "LOGOUT":"Déconnexion",
+        "ACCOUNT_SETTING":"Paramètres du compte",
+        "THEME":"Thème",
+        "LANGUAGE": "Langue",
+        "LOGIN":"Connexion",
+        "REGISTER":"Inscription",
+        "FULLNAME":"Nom complet",
+        "ADDRESS":"Adresse",
+        "NEXT": "Suivant",
+        "PHONE": "Téléphone",        
+        "SHOPNOW":"Acheter maintenant",
+        "LEARNMORE": "En savoir plus",
+        "SUBSCRIBE": "S'abonner",  
+        "FOLLOWUS": "Suivez-nous",
+        "SUGGESTIONS":"Suggestions",
+        "MESSAGE":"Message",
+        "SEEMORE":"Voir plus",
+        "SEND":"Envoyer",
+        "CONTACTTEAM":"Contacter l’équipe",
+        "CONTRY":"Pays",
+        "REVIEWCALL":"Nous aimerions connaître votre avis",
+        "SHARE":"Partager"
+
+
+
+
+
+
+
+
+    },
+      "LOGIN": {
+        "title": "Connectez-vous à votre compte",
+        "subtitle": "Connectez-vous en entrant vos identifiants",
+        "email": "Email",
+        "password": "Mot de passe",
+        "forgot_password": "Mot de passe oublié ?",
+        "submit": "Soumettre",
+        "continue_with": "Ou continuez avec :",
+        "google": "Google",
+        "facebook": "Facebook",
+        "no_account": "Vous n'avez pas de compte ?",
+        "create_account": "Créer un nouveau compte",
+        "AGREE_CONDITION":"J'accepte les Conditions générales et la Politique de confidentialité",
+        "CREATE_ACCOUNT":"Créer un nouveau compte",
+        "REGISTRERSUBTITLE":"Bienvenue ! Commençons par créer votre nouveau compte",
+        "IFALREADYHAVEACCOUND":"Si vous avez déjà un compte",
+        "LOGINTOACCOUNT":"Connectez-vous à votre compte",
+        "signupwithgoogle":"Inscrivez-vous avec Google"
+      },
+
+      "FOOTER":{
+          "CTA1": "Miel de thym 100% naturel en provenance du cœur des montagnes.",
+          "CTA2": "Restez informé des nouvelles variétés de miel, des recettes sucrées, des conseils bien-être naturels et de l’impact de notre miel."
+
+      },
+    "CHATBOT":{
+      "WRITE_MSG": "Écris un message ou une question",
+      "TITLE": "Salut ! Vous cherchez du miel naturel ?",
+      "SUBTITLE": "Je suis là pour vous guider à travers notre sélection dorée." 
+      },
+    "CONTACT":{
+      "FORMTITLE":"Vous avez une question ou souhaitez passer une commande ? Contactez-nous !",
+      "TALKTOSALETEAM":"Parlez à notre équipe commerciale",
+      "SUBTITLE1":"Discutez de vos besoins, renseignez-vous sur les tarifs personnalisés ou demandez une démonstration.",
+      "COMPANYEMAIL":"Email de l’entreprise",
+      "SUBTITLE2":"Vous cherchez du miel en gros, une marque blanche ou des produits naturels haut de gamme ? Notre équipe commerciale vous propose des solutions sur mesure, à des prix compétitifs. Parlons-en !",
+      "HOWWECANHELP":"Comment pouvons-nous aider ?",
+      "WHATCLIENTSAY":"Ce que disent nos clients"
+    },
+    "INTROVIDEO":{
+        "title":"Découvrez notre processus de fabrication du miel"
+    },
+    "TESTIMONIALS":{
+        "REVIEW": "Avis",
+        "REVIEWS": "Avis",
+        "TOP_TESTIMONIALS":"Meilleurs témoignages",
+        "CUTTOMER_REVIEWS":"Avis des clients",
+        "SUBTITLE":"Nous sommes fiers de proposer un miel 100 % pur et naturel — et rien ne nous réjouit plus que de lire les retours positifs de nos clients. Du goût à la texture, en passant par l’emballage et la livraison, ces témoignages reflètent tout le soin que nous apportons à chaque pot. Lisez ce que nos acheteurs disent et découvrez pourquoi tant de personnes nous font confiance pour leur douceur quotidienne.",
+        "SHAREWITHUS":"Partagez votre expérience avec nous",
+        "SHARE_SUBTITLE":"Vos retours nous aident à améliorer notre miel et notre site web",
+        "rate_our_product": "Évaluez nos produits",
+        "overall_experience": "Expérience globale",
+        "website_design_ease_of_use": "Conception du site et facilité d'utilisation",
+        "delivery_service_satisfaction": "Satisfaction de la livraison et du service",
+        "your_comment": "Votre commentaire"
+
+
+      }
+
+   
+}

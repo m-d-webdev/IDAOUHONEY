@@ -1,0 +1,109 @@
+{
+    "LINKS": 
+    {
+        "HOME": "Home",
+        "PRODDUCTS":"Products",
+        "ME": "About Us",
+        "CONTACT": "Contact"
+    },
+    "MAIN":{
+        "CARD":{
+            "TITLE":"🌿 Thyme Honey Treasure",
+            "SUBTITLE":"Hand-harvested from the wild thyme flowers of Ida Outanan, this honey is prized for its bold flavor, natural purity, and healthful benefits — a true taste of Morocco's heartland.",
+            "BUTTONTEXT":"Buy Pure & Natural"
+        },
+        "HONEYCHARS":{
+            "CHAR1":"Rich in antioxidants, which help protect the body from inflammation and oxidative stress.",
+            "CHAR2":"Has a strong, aromatic flavor that comes from the thyme flowers, making it unique compared to other types of honey.",
+            "CHAR3":"Known for its medicinal properties, especially for treating sore throats and boosting the immune system.",
+            "TITLE1":"Thyme Honey ",
+            "TITLE2":"Nature’s Healing Gift"
+        }
+    },
+    "COMMON":{
+        "SEARCHPLACEHOLDER":"Find your favorite flavor of honey",
+        "ORDER_HISTORY":"Order History",
+        "LOGOUT":"Log Out",
+        "ACCOUNT_SETTING":"Account Settings",
+        "THEME":"Theme",
+        "LANGUAGE": "Language",
+        "LOGIN":"Login",
+        "REGISTER":"Sign up",
+        "FULLNAME":"Full Name",
+        "ADDRESS":"Address",
+        "NEXT": "Next",
+        "PHONE":"Phone",
+        "SHOPNOW":"Shop Now",
+        "LEARNMORE": "Learn more",
+        "SEEMORE":"See more",
+        "SUBSCRIBE": "Subscribe",
+        "FOLLOWUS": "Follow us",
+        "SUGGESTIONS":"Suggestions",
+        "MESSAGE":"Message",
+        "SEND":"Send",
+        "CONTACTTEAM":"Contact team",
+        "CONTRY":"Country",
+        "REVIEWCALL":"We’d love to hear your feedback",
+        "SHARE":"Share"
+
+    },
+    "LOGIN": {
+        "title": "Log in to your account",
+        "subtitle": "Access your account by entering your credentials",
+        "email": "Email",
+        "password": "Password",
+        "forgot_password": "Forget password ?",
+        "submit": "Submit",
+        "continue_with": "Or Continue with :",
+        "google": "Google",
+        "facebook": "Facebook",
+        "no_account": "You don't have account ?",
+        "create_account": "Create a new Account",
+        "AGREE_CONDITION":"I agree to the Terms and Conditions and Privacy Policy",
+        "CREATE_ACCOUNT":  "Create new account",
+        "REGISTRERSUBTITLE":"Welcome! Let's get you started with a new account",
+        "IFALREADYHAVEACCOUND":"If you already have an account",
+        "LOGINTOACCOUNT":"log in to your account",
+        "signupwithgoogle":"Sign up with Google"
+
+    },
+    "FOOTER":{
+        "CTA1":"100% natural thyme honey from the heart of the mountains.",
+        "CTA2": "Get the buzz on new honey releases, sweet recipes, natural wellness tips, and how our honey makes a difference."
+    },
+    "CHATBOT":{
+        "WRITE_MSG": "Write a message or question",
+        "TITLE": "Hi there! Looking for natural honey?" ,
+        "SUBTITLE": "I’m here to guide you through our golden selection."
+
+    },
+    "CONTACT":{
+        "FORMTITLE":"Have a Question or Want to Place an Order? Get in Touch!",
+        "TALKTOSALETEAM":"Talk to our Sales team",
+        "SUBTITLE1":"Discuss your requirements, learn about custom pricing, or request a demonstration.",
+        "SUBTITLE2":"Looking for bulk honey, private labeling, or premium natural products for your store? Our sales team is here to offer tailored solutions, competitive pricing, and flexible packaging. Let’s talk!",
+        "COMPANYEMAIL":"Company email",
+        "HOWWECANHELP":"How can we help?",
+        "WHATCLIENTSAY":"What Our Customers Say"
+    },
+    "INTROVIDEO":{
+        "title":"Learn About Our Honey-Making Process"
+    },
+    "TESTIMONIALS":{
+        "REVIEW": "Review",
+        "REVIEWS": "Reviews",
+        "TOP_TESTIMONIALS":"Top Testimonials",
+        "CUTTOMER_REVIEWS":"Customers Review",
+        "SUBTITLE":"We take pride in offering 100% pure, natural honey — and nothing makes us happier than hearing how much our customers love it. From taste and texture to packaging and delivery, these reviews reflect the care we put into every jar. Read what our buyers have to say and discover why so many people trust us for their daily dose of sweetness.",
+        "SHAREWITHUS":"Share Your Experience With Us",
+        "SHARE_SUBTITLE":"Your feedback helps us make our honey and our website even better",
+        "rate_our_product": "Rate our product",
+        "overall_experience": "Overall Experience",
+        "website_design_ease_of_use": "Website Design & Ease of Use",
+        "delivery_service_satisfaction": "Delivery & Service Satisfaction",
+        "your_comment": "Your Comment"
+    }
+
+
+    
+} 
