@@ -11,7 +11,8 @@ const Dialog = ({
     containerClassName = "",
     closeIfClickOutside = true,
     withCloseButton = true,
-    backWhenClose = false
+    backWhenClose = false,
+    style = {}
 }) => {
     const Router = useRouter()
 
@@ -52,7 +53,10 @@ const Dialog = ({
     }, [])
 
     return (
-        <div style={{zIndex:"990"}} onClick={handleClickOutside} className='fixed overflow-auto inset-0 p-4  bg-foreground/20 top-0 left-0 w-screen h-screen flex items-center justify-center'>
+        <div style={{
+            zIndex: "990",
+        }}
+            onClick={handleClickOutside} className='fixed overflow-auto inset-0 p-4  bg-foreground/20 top-0 left-0 w-screen h-screen flex items-center justify-center'>
 
             <AnimatePresence>
                 {
@@ -82,6 +86,7 @@ const Dialog = ({
                                 type: "keyframes"
                             }
                         }}
+                       
                         className={`${containerClassName}  relative !pt-7 bg-background p-4 rounded-md border border-foreground/40  max-h-full overflow-auto`}
                     >
                         {
