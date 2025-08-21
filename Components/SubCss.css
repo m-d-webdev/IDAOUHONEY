@@ -1,0 +1,31 @@
+
+.animated-text {
+    background: linear-gradient(90deg,
+            #FFC107,
+            /* honey yellow */
+            #FFB300,
+            /* darker honey */
+            #9B59B6,
+            /* AI purple */
+            #4A90E2
+            /* AI blue */
+        );
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 8s linear  infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 200% 0%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}

@@ -72,6 +72,8 @@
         "CTA2": "Get the buzz on new honey releases, sweet recipes, natural wellness tips, and how our honey makes a difference."
     },
     "CHATBOT":{
+        "NAME":"Smart AI Assistant",
+        "inWaiting":"Your AI assistant is brewing an answer",
         "WRITE_MSG": "Write a message or question",
         "TITLE": "Hi there! Looking for natural honey?" ,
         "SUBTITLE": "I’m here to guide you through our golden selection."

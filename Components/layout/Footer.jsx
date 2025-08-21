@@ -11,6 +11,7 @@ import { changeLanguage } from "@/lib/i18n";
 import { useState } from "react";
 import { UseUser } from "@/Contexts/UserContext";
 import { OpenChatBot } from "../Global/RandomBeTrip";
+import ChatBotButton from "../Chatbot/ChatBotButton";
 const NEXT_PUBLIC_EMAIL = process.env.NEXT_PUBLIC_EMAIL
 const NEXT_PUBLIC_ADDRESS = process.env.NEXT_PUBLIC_ADDRESS
 const NEXT_PUBLIC_PHONE = process.env.NEXT_PUBLIC_PHONE
@@ -153,10 +154,7 @@ const THIRTPART = () => {
                 </div>
             </div>
             <div className="flex gap-10 items-center">
-                <Button onClick={OpenChatBot} size={"lg"} variant={"dark"} className="flex rounded-full gap-2 items-center  font-semibold ">
-                    <Bot />
-                    Chat bot
-                </Button>
+              <ChatBotButton />
                 <div className="flex gap-6 items-center">
                     <h2 className="opacity-70 font-medium">{t("COMMON.LANGUAGE")}</h2>
                     <div className="flex gap-3">

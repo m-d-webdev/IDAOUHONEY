@@ -88,6 +88,7 @@ export const Logout = () => {
             try {
                 const res = await Api.get("/logout");
                 Cookies.remove("AccessToken");
+                localStorage.removeItem("AI_listChat")
                 window.location.href = "/";
             } catch (error) {
                 reject({ message: error.message });

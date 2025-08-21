@@ -81,10 +81,13 @@
 
       },
     "CHATBOT":{
+      "NAME":"Assistant IA intelligent",
+      "inWaiting":"Votre assistant IA prépare une réponse",
       "WRITE_MSG": "Écris un message ou une question",
       "TITLE": "Salut ! Vous cherchez du miel naturel ?",
       "SUBTITLE": "Je suis là pour vous guider à travers notre sélection dorée." 
-      },
+
+    },
     "CONTACT":{
       "FORMTITLE":"Vous avez une question ou souhaitez passer une commande ? Contactez-nous !",
       "TALKTOSALETEAM":"Parlez à notre équipe commerciale",

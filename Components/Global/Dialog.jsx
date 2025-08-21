@@ -86,7 +86,7 @@ const Dialog = ({
                                 type: "keyframes"
                             }
                         }}
-                       
+
                         className={`${containerClassName}  relative !pt-7 bg-background p-4 rounded-md border border-foreground/40  max-h-full overflow-auto`}
                     >
                         {
@@ -96,6 +96,8 @@ const Dialog = ({
                                 size={"icon"} className={"absolute  !rounded-sm top-0 right-0 hover:bg-red-500 hover:text-white "}><X /></Button>
                         }
                         {children}
+
+
                     </motion.div>
                 }
             </AnimatePresence>
