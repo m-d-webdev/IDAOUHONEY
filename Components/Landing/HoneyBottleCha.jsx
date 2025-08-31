@@ -3,6 +3,7 @@
 import { useTranslation } from "react-i18next"
 import { motion } from "framer-motion"
 import ColoredBorderCard from "./ColoredBorderCard"
+import GreatH1 from "../Global/GreatH1"
 const HoneyBottleCha = () => {
     const { t } = useTranslation()
     return (
@@ -11,13 +12,19 @@ const HoneyBottleCha = () => {
                 backgroundSize: "contain",
                 backgroundImage: 'url("")'
             }}
-            className='  xl:mt-30 mt-20 border border-foreground/15  h-screen relative  w-full  p-4  flex flex-col items-center justify-center'>
+            className='  xl:mt-30 mt-20 border border-foreground/15  min-h-screen relative  w-full  p-4  flex flex-col items-center justify-center'>
             <img src={"media/ChatGPT Image Jul 30, 2025, 01_37_04 PM.png"} className="max-w-[1400] opacity-60 w-full h-full object-center object-cover absolute z-[0] dark:hidden" />
             <img src={"media/bgDark.png"} className="max-w-[1400] hidden dark:block w-full h-full object-center object-cover absolute z-[0]" />
 
             <div className="w-full flex gap-3 z-[2] mb-20 justify-center items-center">
-                <h1 className="opacity-100  text-3xl tracking-[-1px] font-bold">{t("MAIN.HONEYCHARS.TITLE1")}</h1>
-                <h1 className="opacity-100  text-3xl tracking-[-1px] font-bold">{t("MAIN.HONEYCHARS.TITLE2")}</h1>
+                <div className="flex flex-col items-center-safe justify-center">
+                    <GreatH1 className={"!text-3xl"}>
+                        {t("MAIN.HONEYCHARS.TITLE1")}
+                        {t("MAIN.HONEYCHARS.TITLE2")}
+                    </GreatH1>
+                    <div className="w-full bg-foreground/15 mt-4 h-[5]"></div>
+                    <div className="w-4/6 bg-foreground/10 opacity-70 mt-4 h-[5]"></div>
+                </div>
             </div>
             <img src="/media/HoneyBottle2.png" className="h-[250] z-[2]" alt="" />
 

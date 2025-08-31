@@ -46,9 +46,13 @@ const Reviews = () => {
     const { t } = useTranslation()
     return (
         <div className="w-full border border-foreground/5 h-screen mt-20 flex flex-col items-center justify-center">
-            <GreatH1>
-                {t("CONTACT.WHATCLIENTSAY")}
-            </GreatH1>
+
+            <div className="flex flex-col items-center-safe justify-center">
+                <GreatH1 className={"!text-3xl"}>{t("CONTACT.WHATCLIENTSAY")}
+                </GreatH1>
+                <div className="w-full bg-foreground/15 mt-4 h-[5]"></div>
+                <div className="w-4/6 bg-foreground/10 opacity-70 mt-4 h-[5]"></div>
+            </div>
             <div dir="ltr" className="flex gap-5 w-full items-center mt-8 justify-center">
                 <button className="hover2 hover:bg-accent p-2 rounded-full border  cursor-pointer border-foreground/10">
 
@@ -72,7 +76,7 @@ const Reviews = () => {
                 </button>
             </div>
             <Link href={"/reviews"}>
-            <Button size={""} variant={"default"} className={"!px-8 mt-10 hover2 rounded-full "}>{t("COMMON.SEEMORE")} <DecimalsArrowRight /> </Button>
+                <Button size={""} variant={"default"} className={"!px-8 mt-10 hover2 rounded-full "}>{t("COMMON.SEEMORE")} <DecimalsArrowRight /> </Button>
             </Link>
         </div>
     )

@@ -1,11 +1,13 @@
 import Card1 from "@/Components/Global/Card1";
 import GreatImageAnimation from "@/Components/Global/GreatImageAnimation";
+import FAQ_PART from "@/Components/Landing/FAQ";
 import HoneyBottleCha from "@/Components/Landing/HoneyBottleCha";
 import MainComponents from "@/Components/Landing/MainComponents";
 import MainHoneyBottle from "@/Components/Landing/MainHoneyBottle";
 import MainPartBackground from "@/Components/Landing/MainPartBackground";
 import Reviews from "@/Components/Landing/Reviews";
 import VideoInroPart from "@/Components/Landing/VideoInroPart";
+import WhyChooseUsPart from "@/Components/Landing/WhyChooseUsPart";
 import { GetTrans } from "@/lib/server-i18n";
 import Image from "next/image";
 
@@ -40,7 +42,9 @@ export default async function Home({ params }) {
       </div>
       <HoneyBottleCha />
       <VideoInroPart />
+      <WhyChooseUsPart />
       <Reviews />
-      </div>
+      <FAQ_PART />
+    </div>
   );
 }

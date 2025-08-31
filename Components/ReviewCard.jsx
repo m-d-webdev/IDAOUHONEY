@@ -19,9 +19,9 @@ const ReviewCard = ({ review }) => {
                 style={{
                     filter: "drop-shadow(0 0 8px var(--filter-color))"
                 }}
-                className="absolute bg-background  rounded-full flex items-center justify-center bottom-[-60] p-4 ">
+                className="absolute bg-background  rounded-full flex items-center justify-center bottom-[-60] p-3 ">
                 <CircleDashed
-                    className="absolute text-gold  w-[110] stroke-[.5] h-[110] " />
+                    className="absolute text-gold  w-[104] stroke-[.5] h-[104] " />
                 <img className="w-[75]  h-[75] object-cover rounded-full" src={review?.user?.image} alt="" />
                 <h1 className="absolute bottom-[-40] font-semibold text-nowrap">{review?.user?.fullName}</h1>
             </div>

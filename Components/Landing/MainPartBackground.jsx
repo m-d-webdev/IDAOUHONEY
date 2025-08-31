@@ -249,7 +249,7 @@ export const KhaliyatNahlAnimated = ({ className = "" }) =>
     </div>
 const MainPartBackground = () => {
     return (
-        <div className='absolute  overflow-hidden w-full h-full top-[-6.5%] flex items-start justify-start  !z-0 left-0 '>
+        <div className='absolute  overflow-hidden w-full h-full top-[-6.5%] flex items-start justify-start  !z-[-1] left-0 '>
             {/* <img src="/media/IMgBg.png" className=" left-0   dark:hidden w-full top-0 " alt="" /> */}
             {/* <img src="/media/DarkImgBg.png" className=" hidden dark:block left-0  w-full top-0 " alt="" /> */}
 

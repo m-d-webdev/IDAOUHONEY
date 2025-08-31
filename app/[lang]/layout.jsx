@@ -46,18 +46,18 @@ export default async function RootLayout({ children, modal, params }) {
           <UserContext >
 
             {/* ------------ */}
-            <MainPartBackground />
 
             <Header />
             
             <div className="w-full  max-w-[1600px]  ">
               {children}
               <div className="z-[999]">
-
                 {modal}
               </div>
               <Footer />
             </div>
+            <MainPartBackground />
+
           </UserContext>
         </I18Provider>
       </body>
