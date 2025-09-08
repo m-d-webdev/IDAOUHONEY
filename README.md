@@ -1,6 +1,6 @@
 # LINK TO WEBSITER ==> https://tamnt.space
-# LINK TO WEBSITER ==> https://idaouhoney-dashboard.vercel.app/Products/1
-
+# LINK TO DASHBOARD ==> https://idaouhoney-dashboard.vercel.app/Products/1
+## **( I still work on both. ) **
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
