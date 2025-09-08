@@ -31,7 +31,6 @@ const MainComponents = () => (
             <h2 className='text-base mt-8 opacity-70 z-[3] font-medium  tracking-tight' >100% natural, raw, and unfiltered honey straight from Moroccan hives</h2>
             <HomeMainTextPlants />
             <BeeMovements />
-            <RandomBeTrip />
 
         </div>
     </div>

@@ -8,6 +8,7 @@ import Header from "@/Components/layout/Header";
 import MainPartBackground from "@/Components/Landing/MainPartBackground";
 import UserContext from "@/Contexts/UserContext";
 import Footer from "@/Components/layout/Footer";
+import RandomBeTrip from "@/Components/Global/RandomBeTrip";
 
 
 const iBM_Plex_Sans_Arabic = IBM_Plex_Sans_Arabic({
@@ -44,6 +45,7 @@ export default async function RootLayout({ children, modal, params }) {
         <IderkaouiToast />
         <I18Provider>
           <UserContext >
+            <RandomBeTrip />
 
             {/* ------------ */}
 

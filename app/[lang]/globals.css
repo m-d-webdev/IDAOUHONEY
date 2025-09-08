@@ -49,6 +49,7 @@
   --radius-xl: calc(var(--radius) + 4px);
 
   --color-gold: #fad60d;
+  --color-gray3: var(--gray3);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -60,8 +61,7 @@
 }
 
 :root {
-  --gray3: #f5f5f54a;
-
+  --gray3: #fdfdfd;
   --filter-color: #0000002b;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -102,7 +102,7 @@
 }
 
 .dark {
-  --gray3: #2928288e;
+  --gray3: #101010;
   --filter-color: #ffffff2c;
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);

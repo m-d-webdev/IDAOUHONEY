@@ -65,7 +65,7 @@ export const HeaderLinks = ({ toTop = false }) => {
                             key={i}
                             onMouseEnter={() => setHovredElem(l.dropDown)}
                             onMouseLeave={() => setHovredElem(null)}
-                            className="font-normal z-10  text-sm tracking-tight flex items-center gap-2 group duration-100 hover:opacity-100  opacity-60 relative" href={l.link}
+                            className="font-normal truncate  text-nowrap z-10  text-sm tracking-tight flex items-center gap-2 group duration-100 hover:opacity-100  opacity-60 relative" href={l.link}
                         >
                             {l.name}
 

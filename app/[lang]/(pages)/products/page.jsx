@@ -1,10 +1,11 @@
+import ListOfProducts from "./(components)/ListOfProducts"
 
 
 
-const page =  ({  }) => {
+const page = ({ }) => {
     return (
         <>
-
+            <ListOfProducts />
         </>
     )
 }
