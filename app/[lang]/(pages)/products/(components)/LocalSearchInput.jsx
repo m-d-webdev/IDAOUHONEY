@@ -6,7 +6,7 @@ import { Search } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const LocalSearchInput = () => {
-    const { setsecondFilterParams } = UseProductsFilters();
+    const { setsecondFilterParams, loadingCategories } = UseProductsFilters();
     const [value, setValue] = useState("")
 
     useEffect(() => {
@@ -24,7 +24,14 @@ const LocalSearchInput = () => {
     return (
 
         <>
-            <Input2  onChange={e => setValue(e.target.value)} icon={<Search className="w-5 h-5" />} parentClassName="py-1 !max-w-[400] rounded-2xl  !bg-accent/40" className={"!bg-transparent"} placeholder="Search for products ... " />
+            {
+                loadingCategories
+                    ? <div className="md:w-[400] gap-2 flex items-center border border-border rounded p-2  ">
+                        <div className="w-[20] h-[20] rounded animated-loading-color"></div>
+                        <div className="w-[40%] h-[15] rounded animated-loading-color"></div>
+                    </div>
+                    : <Input2 onChange={e => setValue(e.target.value)} icon={<Search className="w-5 h-5" />} parentClassName="py-1 !max-w-[400] rounded-2xl  !bg-accent/40" className={"!bg-transparent"} placeholder="Search for products ... " />
+            }
         </>
     )
 }
