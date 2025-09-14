@@ -37,32 +37,28 @@ export default async function RootLayout({ children, modal, params }) {
   const { lang } = await params
   return (
 
-    <html >
-      <head>
 
-      </head>
-      <body className={` ${lang == 'ar' ? iBM_Plex_Sans_Arabic.className : geist_Mono.className} flex   flex-col items-center justify-start  `}      >
-        <IderkaouiToast />
-        <I18Provider>
-          <UserContext >
-            <RandomBeTrip />
+    <div className={` ${lang == 'ar' ? iBM_Plex_Sans_Arabic.className : geist_Mono.className} flex   flex-col items-center justify-start  `}      >
+      <IderkaouiToast />
+      <I18Provider>
+        <UserContext >
+          <RandomBeTrip />
 
-            {/* ------------ */}
+          {/* ------------ */}
 
-            <Header />
-            
-            <div className="w-full  max-w-[1600px]  ">
-              {children}
-              <div className="z-[999]">
-                {modal}
-              </div>
-              <Footer />
+          <Header />
+
+          <div className="w-full  max-w-[1600px]  ">
+            {children}
+            <div className="z-[999]">
+              {modal}
             </div>
-            <MainPartBackground />
+            <Footer />
+          </div>
+          <MainPartBackground />
 
-          </UserContext>
-        </I18Provider>
-      </body>
-    </html>
+        </UserContext>
+      </I18Provider>
+    </div>
   );
 }

@@ -1,12 +1,14 @@
 
 
-const layout = ({ children, modal }) => {
+const RootLayout = ({ children, modal }) => {
     return (
-        <>
-            {children}
-            {modal}
-        </>
+        <html>
+            <body>
+                {children}
+                {modal}
+            </body>
+        </html>
     )
 }
 
-export default layout
+export default RootLayout
